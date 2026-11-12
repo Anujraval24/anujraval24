@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Anuj Raval, full-stack engineer</title>
+<meta name="description" content="Anuj Raval builds TypeScript, React and Node.js applications on AWS. IT Analyst at TCS in Gujarat, India.">
+<meta name="theme-color" content="#16204B">
+<style>
+  @font-face{font-family:"Bric";font-weight:400;font-display:swap;src:url(fonts/bricolage-grotesque-latin-400-normal.woff) format("woff")}
+  @font-face{font-family:"Bric";font-weight:600;font-display:swap;src:url(fonts/bricolage-grotesque-latin-600-normal.woff) format("woff")}
+  @font-face{font-family:"Bric";font-weight:800;font-display:swap;src:url(fonts/bricolage-grotesque-latin-800-normal.woff) format("woff")}
+
+  /* Same tokens as data/profile.json, which the README cards use. */
+  :root{
+    --ground:#16204B; --deep:#0F1738; --rim:#2B3878;
+    --text:#EFE8D8; --muted:#9AA3D0; --turmeric:#F4B41A;
+    --gutter:clamp(20px,5vw,56px);
+  }
+  *{box-sizing:border-box}
+  html{background:var(--ground);color:var(--text);font-family:"Bric",system-ui,sans-serif;font-size:18px;line-height:1.55;-webkit-text-size-adjust:100%}
+  body{margin:0}
+  a{color:inherit}
+  :focus-visible{outline:3px solid var(--turmeric);outline-offset:3px;border-radius:4px}
+  .wrap{max-width:1040px;margin:0 auto;padding:0 var(--gutter)}
+
+  /* ---------- hero ---------- */
+  .hero{position:relative;overflow:hidden;padding:clamp(56px,12vw,120px) 0 clamp(48px,8vw,88px);border-bottom:1px solid var(--rim)}
+  .lattice{position:absolute;right:-30px;top:0;width:min(560px,78vw);height:100%;pointer-events:none;
+    -webkit-mask-image:linear-gradient(to right,transparent 0,#000 55%);mask-image:linear-gradient(to right,transparent 0,#000 55%)}
+  @media (max-width:819px){.lattice{opacity:.4}}
+  .lattice path{fill:var(--turmeric);animation:pop .55s cubic-bezier(.2,.7,.2,1) both;animation-delay:var(--d);transform-box:fill-box;transform-origin:50% 50%}
+  @keyframes pop{from{opacity:0;transform:scale(.3)}}
+  .hero .wrap{position:relative}
+  h1{margin:0;font-weight:800;font-size:clamp(3.4rem,13.5vw,9rem);line-height:.92;letter-spacing:-.025em}
+  .tagline{max-width:22em;margin:clamp(20px,4vw,36px) 0 0;font-size:clamp(1.2rem,3.2vw,1.65rem);line-height:1.35}
+  .role{margin:18px 0 0;color:var(--turmeric);font-weight:600;font-size:1rem}
+  .links{display:flex;flex-wrap:wrap;gap:12px 28px;margin:clamp(28px,5vw,44px) 0 0;padding:0;list-style:none}
+  .links a{font-weight:600;text-decoration:underline;text-decoration-color:var(--turmeric);text-decoration-thickness:3px;text-underline-offset:6px;padding:6px 0;display:inline-block}
+  .links a:hover{text-decoration-color:var(--text)}
+
+  /* ---------- sections ---------- */
+  section{display:grid;grid-template-columns:1fr;gap:20px;padding:clamp(40px,7vw,72px) 0;border-bottom:1px solid var(--rim)}
+  h2{margin:0;font-weight:800;font-size:1.5rem;letter-spacing:-.01em}
+  @media (min-width:820px){section{grid-template-columns:220px 1fr;gap:48px}h2{position:sticky;top:28px;align-self:start}}
+  .about p{margin:0 0 1em;max-width:36em}
+  .about p:last-child{margin:0}
+
+  .work{display:grid;gap:0;margin:0;padding:0;list-style:none}
+  .work li{border-top:1px solid var(--rim)}
+  .work li:first-child{border-top:0;padding-top:0}
+  .work a{display:block;padding:22px 0;text-decoration:none}
+  .work li:first-child a{padding-top:0}
+  .work h3{margin:0;font-weight:800;font-size:clamp(1.35rem,4vw,1.8rem);line-height:1.15;text-decoration:underline;text-decoration-color:transparent;text-decoration-thickness:3px;text-underline-offset:6px}
+  .work a:hover h3{text-decoration-color:var(--turmeric)}
+  .work p{margin:8px 0 0;color:var(--muted);max-width:34em;font-size:1rem}
+  .lang{display:inline-flex;align-items:center;gap:8px;margin-top:12px;font-weight:600;font-size:.95rem}
+  .lang i{width:11px;height:11px;border-radius:50%;background:var(--c)}
+
+  dl.stack{margin:0;display:grid;gap:22px}
+  dl.stack div{display:grid;gap:4px}
+  dt{font-weight:800;font-size:1rem}
+  dd{margin:0;color:var(--muted);font-size:1rem}
+  @media (min-width:560px){dl.stack div{grid-template-columns:200px 1fr;gap:24px}}
+
+  .since{margin:0;font-size:clamp(1.3rem,3.4vw,1.7rem);line-height:1.35;max-width:26em}
+  .since strong{color:var(--turmeric);font-weight:800}
+
+  footer{padding:36px 0 56px;color:var(--muted);font-size:.9rem}
+  footer .wrap{display:flex;flex-wrap:wrap;gap:8px 24px;justify-content:space-between}
+
+  @media (prefers-reduced-motion:reduce){.lattice path{animation:none}}
+</style>
+</head>
+<body>
+<header class="hero">
+  <svg class="lattice" id="lattice" viewBox="0 0 560 520" preserveAspectRatio="xMaxYMin slice" aria-hidden="true"></svg>
+  <div class="wrap">
+    <h1>Anuj Raval</h1>
+    <p class="tagline">Full-stack engineer building TypeScript, React and Node.js apps for <span id="years">8</span>+ years.</p>
+    <p class="role">IT Analyst at TCS, Gujarat, India</p>
+    <ul class="links">
+      <li><a href="https://www.linkedin.com/in/anujraval" rel="me">LinkedIn</a></li>
+      <li><a href="https://x.com/annujraval" rel="me">X</a></li>
+      <li><a href="https://github.com/anujraval24" rel="me">GitHub</a></li>
+    </ul>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="about" aria-labelledby="h-about">
+    <h2 id="h-about">About</h2>
+    <div>
+      <p>I build and ship web applications end to end, in JavaScript and TypeScript, with React.js and Redux on the front and Node.js, Express.js and Python behind them.</p>
+      <p>I work with MySQL, MongoDB and PostgreSQL, run on AWS, and automate delivery with Docker and GitHub Actions. I lead and mentor developers, and keep quality up with Playwright, Jest and React Testing Library.</p>
+      <p>Outside work I contribute to open-source projects and take part in hackathons.</p>
+    </div>
+  </section>
+
+  <section aria-labelledby="h-work">
+    <h2 id="h-work">Selected work</h2>
+    <ul class="work">
+      <li><a href="https://github.com/anujraval24/BlockChain">
+        <h3>BlockChain</h3>
+        <p>A simple blockchain demo in Java.</p>
+        <span class="lang" style="--c:#b07219"><i></i>Java</span>
+      </a></li>
+      <li><a href="https://github.com/anujraval24/mysql-express-react-node">
+        <h3>mysql-express-react-node</h3>
+        <p>MySQL with Sequelize ORM, Express JS, React JS (Tailwind CSS, TypeScript), and Node JS.</p>
+        <span class="lang" style="--c:#f1e05a"><i></i>JavaScript</span>
+      </a></li>
+      <li><a href="https://github.com/anujraval24/postgres-express-react-node">
+        <h3>postgres-express-react-node</h3>
+        <p>PostgreSQL with Sequelize ORM, Express JS, React JS (Next JS, Tailwind CSS, TypeScript), and Node JS.</p>
+        <span class="lang" style="--c:#f1e05a"><i></i>JavaScript</span>
+      </a></li>
+    </ul>
+  </section>
+
+  <section aria-labelledby="h-stack">
+    <h2 id="h-stack">Stack</h2>
+    <dl class="stack">
+      <div><dt>Languages and frameworks</dt><dd>JavaScript, TypeScript, React.js, Redux, Node.js, Express.js, Python</dd></div>
+      <div><dt>Databases</dt><dd>MySQL, MongoDB, PostgreSQL</dd></div>
+      <div><dt>AWS</dt><dd>S3, RDS, Cognito, Lambda, CloudFront, API Gateway</dd></div>
+      <div><dt>Delivery</dt><dd>Docker, Git, GitHub Actions CI/CD pipelines</dd></div>
+      <div><dt>Testing</dt><dd>Playwright, Jest, React Testing Library</dd></div>
+      <div><dt>Planning</dt><dd>Jira, Linear, Asana</dd></div>
+    </dl>
+  </section>
+
+  <section aria-labelledby="h-career">
+    <h2 id="h-career">Experience</h2>
+    <p class="since">Working in software since September 2018, currently as an IT Analyst at TCS, leading and mentoring development teams.</p>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>Anuj Raval, Gujarat, India</span>
+    <a href="https://github.com/anujraval24/anujraval24">Source on GitHub</a>
+  </div>
+</footer>
+
+<script>
+  // Years of experience, counted from September 2018.
+  (function(){
+    var s=new Date(2018,8,1),n=new Date(),y=n.getFullYear()-s.getFullYear();
+    if(n<new Date(n.getFullYear(),8,1))y--;
+    document.getElementById("years").textContent=Math.max(y,8);
+  })();
+  // Block-print lattice: diamonds printed in a diagonal sweep from the top left.
+  (function(){
+    var svg=document.getElementById("lattice"),P=30,cols=19,rows=17,out="";
+    for(var r=0;r<rows;r++)for(var c=0;c<cols;c++){
+      var x=c*P+(r%2?P/2:0)+16,y=r*P*.92+16,k=8;
+      var o=(.08+.62*(c/cols)).toFixed(2);
+      out+='<path d="M'+x+' '+(y-k)+'L'+(x+k)+' '+y+'L'+x+' '+(y+k)+'L'+(x-k)+' '+y+'Z" opacity="'+o+'" style="--d:'+(.15+.04*(c+r)).toFixed(2)+'s"/>';
+    }
+    svg.innerHTML=out;
+  })();
+</script>
+</body>
+</html>

@@ -1,25 +1,27 @@
-### Hi there 👋
+<p align="center">
+  <img src="cards/hero.svg" alt="Anuj Raval, full-stack engineer building TypeScript, React and Node.js apps. IT Analyst at TCS, Gujarat, India." width="100%">
+</p>
 
-<!--
-**Anujraval24/anujraval24** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile. -->
-- Introduction
-> Software Analyst with 6 years of experience driving the development of complex web applications. Highly Skilled in Javascript & Typescript with frontend (React.js, Redux) and backend (Node.js, Express.js, Python) development, leveraging various databases (MySQL, MongoDB, PostgreSQL) and AWS services for scalable solutions. Proven ability to manage and mentor development teams, ensuring code quality and robust testing practices (Playwright, Jest, React Testing Library). Actively contributes to the developer community through open-source projects and hackathon participation.
+<p align="center">
+  <a href="https://anujraval24.github.io/anujraval24/"><img src="cards/tile-site.svg" alt="Portfolio: projects and stack" width="32.5%"></a>
+  <a href="https://www.linkedin.com/in/anujraval"><img src="cards/tile-linkedin.svg" alt="LinkedIn: /in/anujraval" width="32.5%"></a>
+  <a href="https://x.com/annujraval"><img src="cards/tile-x.svg" alt="X: @annujraval" width="32.5%"></a>
+</p>
 
-🔭 Building Scalable Web Apps using 🔽
-  - Javascript • Typescript | React.js • Node.js • Python
-  - DevOps | AWS • Docker • GitHub Actions CI/CD Automation
-  - Testing | Jest • Playwright • RTL
+<p align="center">
+  <img src="cards/chart.svg" alt="Bar chart of my GitHub contributions per month over the last 12 months, with my current and longest streak, active days and busiest day." width="100%">
+</p>
 
-> Key Skills:
-- Full Stack Development (Javascript, TypeScript - React.js, Node.js)
-- Database Management (MySQL, MongoDB, PostgreSQL)
-- AWS Services (S3, RDS, Cognito, Lambda, CloudFront, API Gateway)
-- DevOps (Docker, Git, GitHub Actions CI/CD pipelines)
-- Project Management & Version Control (Jira, Linear, Asana)
-- Automation Testing (Playwright, Jest, React Testing Library)
-- Effective Communication & Leadership
+<p align="center">
+  <a href="https://github.com/anujraval24/BlockChain"><img src="cards/repo-BlockChain.svg" alt="BlockChain: a simple blockchain demo in Java." width="100%"></a>
+</p>
+<p align="center">
+  <a href="https://github.com/anujraval24/mysql-express-react-node"><img src="cards/repo-mysql-express-react-node.svg" alt="mysql-express-react-node: MySQL, Sequelize, Express, React and Node.js template." width="100%"></a>
+</p>
+<p align="center">
+  <a href="https://github.com/anujraval24/postgres-express-react-node"><img src="cards/repo-postgres-express-react-node.svg" alt="postgres-express-react-node: PostgreSQL, Sequelize, Express, Next.js and Node.js template." width="100%"></a>
+</p>
 
-- 💬 Ask me about ... React JS, Node JS, Typescript, Python
-- 📫 How to reach me: [LinkedIn](https://www.linkedin.com/in/anujraval) | [Twitter](https://x.com/annujraval)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anujraval24&hide=java&layout=compact)
+<p align="center">
+  <img src="cards/graph.svg" alt="My GitHub contribution graph for the last year." width="100%">
+</p>

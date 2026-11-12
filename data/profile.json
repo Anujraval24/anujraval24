@@ -1,0 +1,51 @@
+{
+  "name": "Anuj Raval",
+  "login": "anujraval24",
+  "tagline": "Full-stack engineer building TypeScript, React and Node.js apps for {years}+ years.",
+  "role": "IT Analyst at TCS, Gujarat, India",
+  "career_start": "2018-09",
+  "portrait": null,
+  "links": {
+    "site": "https://anujraval24.github.io/anujraval24/",
+    "linkedin": "https://www.linkedin.com/in/anujraval",
+    "x": "https://x.com/annujraval",
+    "github": "https://github.com/anujraval24"
+  },
+  "tiles": [
+    {
+      "key": "site",
+      "title": "Portfolio",
+      "sub": "Projects and stack"
+    },
+    {
+      "key": "linkedin",
+      "title": "LinkedIn",
+      "sub": "/in/anujraval"
+    },
+    {
+      "key": "x",
+      "title": "X",
+      "sub": "@annujraval"
+    }
+  ],
+  "featured_repos": [
+    "BlockChain",
+    "mysql-express-react-node",
+    "postgres-express-react-node"
+  ],
+  "brand": {
+    "ground": "#16204B",
+    "ground_deep": "#0F1738",
+    "rim": "#2B3878",
+    "text": "#EFE8D8",
+    "muted": "#9AA3D0",
+    "turmeric": "#F4B41A",
+    "ramp": [
+      "#232F6B",
+      "#6B5420",
+      "#A47A14",
+      "#D69A12",
+      "#F4B41A"
+    ]
+  }
+}
