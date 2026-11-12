@@ -332,11 +332,14 @@ def chart():
     # Stats column
     sx = 618
     c.add(f'<line x1="{sx - 28}" y1="40" x2="{sx - 28}" y2="{c.h - 40}" stroke="{RIM}"/>')
+    def plural(k, word):
+        return word if k == 1 else word + "s"
+
     stats = [
-        (str(cur), "days", "Current streak"),
-        (str(longest), "days", "Longest streak"),
-        (n(active), "days", "Active days"),
-        (n(busiest[1]), "contributions", f"Busiest day, {fmt_day(busiest[0])}"),
+        (str(cur), plural(cur, "day"), "Current streak"),
+        (str(longest), plural(longest, "day"), "Longest streak"),
+        (n(active), plural(active, "day"), "Active days"),
+        (n(busiest[1]), plural(busiest[1], "contribution"), f"Busiest day, {fmt_day(busiest[0])}"),
     ]
     for i, (num, unit, label) in enumerate(stats):
         y = 84 + i * 62
